@@ -1,0 +1,49 @@
+.nav-bar {
+  padding: 15px;
+  overflow: hidden;
+}
+body,
+html {
+  height: 100%;
+  margin: 0;
+}
+
+.nav-bar-right {
+  
+  padding: 5px;
+  float: right; /* align nav bar items to the right */
+}
+.nav-bar-items {
+  padding: 20px;
+  font-size: 25px;
+
+  text-decoration: none;
+  color:#DEB589;
+  font-family: "EB Garamond", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+
+}
+.bg {
+  /* The image used */
+  background-image: url("blackhole.jpg");
+
+  /* Full height */
+  height: 100%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.navlogo {
+    font-family: "customfont1";
+    padding:20px;
+    color:#DEB589;
+    font-size: 70px;
+}
+/* Adding custom font */
+@font-face {
+    font-family: customfont1;
+    src: url(billyfont.ttf);
+}
