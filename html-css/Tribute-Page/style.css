@@ -6,6 +6,9 @@ body,
 html {
   height: 100%;
   margin: 0;
+  background-color:black;
+  color:white;
+  
 }
 
 .nav-bar-right {
@@ -46,4 +49,150 @@ html {
 @font-face {
     font-family: customfont1;
     src: url(billyfont.ttf);
+}
+.about {
+  padding:20px;
+  display:grid;
+  justify-items: center;
+}
+.about1 {
+  text-align: center;
+  border-top: solid;
+  border-color:hsl(31, 56%, 70%);
+  border-radius: 2px;
+  padding:20px;
+  width:50%;
+  
+}
+.about2{
+  text-align: center;
+  border-top:solid;
+  border-color:hsl(31, 56%, 70%);
+  border-width: 20%;
+  padding:20px;
+  
+  width:50%;
+}
+
+.aboutarticle {
+  font-size:20px;
+  color:#DEB589;
+}
+.parallax {
+  /* The image used */
+  background-image: url("sunset.jpg");
+
+  /* Set a specific height */
+  min-height: 500px; 
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.movies {
+	width: 100%;
+	height: 500px;
+  padding-top:50px;
+  padding-bottom:50px;
+  text-align: center;
+  
+}
+.sectiontitle {
+ padding:30px;
+ padding-top:70px;
+ color: #DEB589;
+}
+.moviesgrid {
+  padding-top:30px;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-ms-flex-wrap: wrap;
+	    flex-wrap: wrap;
+	-webkit-box-pack: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
+	-webkit-box-align: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: normal;
+	    -ms-flex-direction: row;
+	        flex-direction: row;
+}
+.box {
+	margin: 10px;
+	width: 250px  ;
+	height: 350px;
+	text-align: center;
+	border-radius: 3px;
+	-webkit-transition: 200ms ease-in-out;
+	-o-transition: 200ms ease-in-out;
+	transition: 200ms ease-in-out;
+	-webkit-box-shadow: 0 0 15px rgba(0,0,0,0.3);
+	        box-shadow: 0 0 15px rgba(0,0,0,0.3);
+}
+.box:hover {
+	margin-bottom: -10px;
+	-webkit-box-shadow: 0 0 5px rgba(0,0,0,0.7);
+	        box-shadow: 0 0 5px rgba(0,0,0,0.7);
+}
+
+.one {
+	background: url('https://m.media-amazon.com/images/M/MV5BZTcyNjk1MjgtOWI3Mi00YzQwLWI5MTktMzY4ZmI2NDAyNzYzXkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+  text-decoration: none;
+}
+.two {
+	background: url('https://m.media-amazon.com/images/M/MV5BMjExMjkwNTQ0Nl5BMl5BanBnXkFtZTcwNTY0OTk1Mw@@._V1_.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+  text-decoration: none;
+}
+.three {
+	background: url('https://play-lh.googleusercontent.com/SPSk_z5IZopVbPIItru1_yYFtBZqNjdAHNAgpg8XVwWrPAxwLzDEI83fQ7HtgjaZTdiT');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+  text-decoration: none;
+}
+.four {
+	background: url('https://musicart.xboxlive.com/7/912b1000-0000-0000-0000-000000000002/504/image.jpg?w=1920&h=1080');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+  text-decoration: none;
+}
+.five {
+	background: url('https://m.media-amazon.com/images/I/9101ShqfIqL._AC_UF1000,1000_QL80_.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+  text-decoration: none;
+}
+.six {
+	background: url('https://m.media-amazon.com/images/M/MV5BMDBmYTZjNjUtN2M1MS00MTQ2LTk2ODgtNzc2M2QyZGE5NTVjXkEyXkFqcGdeQXVyNzAwMjU2MTY@._V1_.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+  text-decoration: none;
+}
+.seven {
+	background: url('https://m.media-amazon.com/images/M/MV5BNDVhYTAyMDgtM2NhNS00MmQ3LWE0ZDMtNWIxMjlhODFmOWUwXkEyXkFqcGdeQXVyMTA5NjIyODcx._V1_FMjpg_UX1000_.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+  text-decoration: none;
+}
+.eight {
+	background: url('https://m.media-amazon.com/images/M/MV5BNDhiODUyN2UtYTQzZi00YTE0LWJiMWEtYTVlODEyZDQwYzRhXkEyXkFqcGdeQXVyMTA3MDk2NDg2._V1_.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+  text-decoration: none;
 }
