@@ -1,1 +1,1 @@
-![Alt text](/relative/path/to/snapshot.png?raw=true "Optional Title")
+![snapshot](https://github.com/FurkannOzbek/Personal-exercises/assets/46000933/fdeb949b-36ed-4204-b372-85f3ff2a3ce4)
