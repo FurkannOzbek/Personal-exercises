@@ -23,7 +23,7 @@ else if (balance >= 10000) {
 }
 
 const iLikeGaming = answerIsTrue ? "GAMING" : "HATE GAMING";
-
+// Ternary version
 console.log(
   balance < 0 ? "please deposit some money" : (balance > 0) & (balance < 1000)
 );
