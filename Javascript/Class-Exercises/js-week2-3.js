@@ -56,8 +56,8 @@ for (i = 0; i < recepient.length; i++) {
 }
 
 // for (const email of allEmailsArray) {
-  //  sendEmailTo(email);}
+//  sendEmailTo(email);}
 //allEmailsArray.foreach(sendEmailTo)
-  // al
+// al
 
-}
+//}
