@@ -8,6 +8,7 @@
   <body>
     <script src="Acronym.js"></script>
     <script src="Roman-numerals.js"></script>
+    <script src="gigasecond.js"></script>
     <div class="one">
       <h1 class="title">Acronym</h1>
       <div class="main">
@@ -31,7 +32,17 @@
         <p id="roman1"></p>
       </div>
     </div>
-    <div class="three"></div>
+    <div class="three">
+      <h1 class="title">GigaSecond</h1>
+      <h3>1 gigasecond = 31.688 years</h3>
+      <div class="main">
+        <label for="date" class="date"> Date :</label>
+        <input type="date" id="givenDate" class="givenDate" name="date" />
+
+        <button onclick="gigaSecond()">Find difference in gigaSeconds</button>
+        <p id="date1"></p>
+      </div>
+    </div>
     <div class="four"></div>
   </body>
 </html>
@@ -68,6 +79,9 @@
   }
   .main {
     padding: 10%;
+    text-align: center;
+  }
+  h3 {
     text-align: center;
   }
 </style>
