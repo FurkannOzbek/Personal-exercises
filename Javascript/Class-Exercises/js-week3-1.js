@@ -38,11 +38,9 @@ for (let i = 0; i < users.length; i++) {
   for (let j = 0; j < keysToLog.length; j++) {
     const key = keysToLog[j];
     if (typeof users[i][keysToLog[j]] === "object") {
-      for (let k = 0; k < user[key].length < k++; ) {
-        result += `${user[key]} - `; // find out how to get to inside object
-      }
+      result += `${users[i][keysToLog[j]].favourite} - `;
     } else {
-      result += `${user[key]} `;
+      result += `${users[i][keysToLog[j]]} `; // find a way to access inside object
     }
   }
 }
