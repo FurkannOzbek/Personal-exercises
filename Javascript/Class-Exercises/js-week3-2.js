@@ -30,4 +30,3 @@ const singleFruit = fruits.shift();
 console.log(singleFruit);
 
 console.log(fruits);
-öm;
