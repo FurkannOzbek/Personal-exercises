@@ -1,82 +1,84 @@
-// const button = document.querySelector("button");
-// console.log(button);
+// // const button = document.querySelector("button");
+// // console.log(button);
 
-// button.addEventListener("click", () => console.log("red"));
+// // button.addEventListener("click", () => console.log("red"));
 
-// Click Counter
+// // Click Counter
 
-const button1 = document.getElementById("button1");
+// con
 
-let count = 0;
-button1.addEventListener("click", () => {
-  console.log(count);
-  count = count + 1;
-});
+// const button1 = document.getElementById("button1");
 
-const button2 = document.getElementById("button2");
-button2.addEventListener("click", () => {
-  n;
-  console.log(count);
-  count = count + 1;
-});
+// let count = 0;
+// button1.addEventListener("click", () => {
+//   console.log(count);
+//   count = count + 1;
+// });
 
-//  Delay clicker
+// const button2 = document.getElementById("button2");
+// button2.addEventListener("click", () => {
+//   n;
+//   console.log(count);
+//   count = count + 1;
+// });
 
-const buttonLogIn = document.getElementById("logIn");
+// //  Delay clicker
 
-buttonLogIn.addEventListener("click", () => {
-  setTimeout(() => {
-    console.log("3sec delay");
-  }, 3000);
-});
+// const buttonLogIn = document.getElementById("logIn");
 
-window.addEventListener("mousemove", mouseMove);
+// buttonLogIn.addEventListener("click", () => {
+//   setTimeout(() => {
+//     console.log("3sec delay");
+//   }, 3000);
+// });
 
-function mouseMove(event) {
-  const x = event.clientX;
-  const y = event.clientY;
-}
+// window.addEventListener("mousemove", mouseMove);
 
-// function updateTime() {
-//   const currentTime = new Date();
-//   let hours = currentTime.getHours();
-//   let minutes = currentTime.getMinutes();
-//   let seconds = currentTime.getSeconds();
-
-//   console.log(hours);
-//   console.log(minutes);
-//   console.log(seconds);
-
-//   if (hours == 9 && minutes == 44 && seconds == 40) {
-//     alert("Market is open now");
-//   }
+// function mouseMove(event) {
+//   const x = event.clientX;
+//   const y = event.clientY;
 // }
 
-// setInterval(updateTime, 1000);
+// // function updateTime() {
+// //   const currentTime = new Date();
+// //   let hours = currentTime.getHours();
+// //   let minutes = currentTime.getMinutes();
+// //   let seconds = currentTime.getSeconds();
 
-function setAlertForSpecificTime(hour, minute) {
-  // Get the current time
-  const now = new Date();
+// //   console.log(hours);
+// //   console.log(minutes);
+// //   console.log(seconds);
 
-  // Create a new Date object for the target time today
-  const targetTime = new Date();
-  targetTime.setHours(hour, minute, 0, 0);
+// //   if (hours == 9 && minutes == 44 && seconds == 40) {
+// //     alert("Market is open now");
+// //   }
+// // }
 
-  // Calculate the difference in milliseconds
-  let timeDifference = targetTime - now;
+// // setInterval(updateTime, 1000);
 
-  // If the target time is in the past, set it for the next day
-  if (timeDifference < 0) {
-    targetTime.setDate(targetTime.getDate() + 1);
-    timeDifference = targetTime - now;
-  }
+// function setAlertForSpecificTime(hour, minute) {
+//   // Get the current time
+//   const now = new Date();
 
-  // Set the timeout
-  setTimeout(() => {
-    alert("It's time!");
-  }, timeDifference);
-}
+//   // Create a new Date object for the target time today
+//   const targetTime = new Date();
+//   targetTime.setHours(hour, minute, 0, 0);
 
-// Set an alert for 3:00 PM
-setAlertForSpecificTime(10, 0);
-setAlertForSpecificTime(10, 1);
+//   // Calculate the difference in milliseconds
+//   let timeDifference = targetTime - now;
+
+//   // If the target time is in the past, set it for the next day
+//   if (timeDifference < 0) {
+//     targetTime.setDate(targetTime.getDate() + 1);
+//     timeDifference = targetTime - now;
+//   }
+
+//   // Set the timeout
+//   setTimeout(() => {
+//     alert("It's time!");
+//   }, timeDifference);
+// }
+
+// // Set an alert for 3:00 PM
+// setAlertForSpecificTime(10, 0);
+// setAlertForSpecificTime(10, 1);
